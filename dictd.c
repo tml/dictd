@@ -1749,7 +1749,7 @@ int main (int argc, char **argv, char **envp)
 
 
    for (;;) {
-      dict_setproctitle( "%s: %d/%d",
+      dict_setproctitle( "%s: %d%%%d",
 			 dict_get_banner(1),
 			 _dict_forks - _dict_reaps,
 			 _dict_forks );
