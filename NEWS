@@ -1,4 +1,13 @@
 ----------------------------------------------------------------------
+Version 1.12.2, by Joey Smith, Sun, 11 Jul 2016 11:43:53 -0700
+
+  FIX:
+    Fix for Debian bug #651614 reported by Fabrice Lorrain; process
+    name changed from "dictd <version>: <active procs>/<fork count>"
+    to "dictd <version>: <active procs>%<fork count>" so net-tools can
+    show correct process name.
+
+----------------------------------------------------------------------
 Version 1.12.1, by Aleksey Cheusov, Sun, 22 Jul 2012 16:33:39 +0300
 
   dictl.in:
